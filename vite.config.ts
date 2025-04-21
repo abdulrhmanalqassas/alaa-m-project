@@ -6,4 +6,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 export default defineConfig({
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
   base: "/alaa-m-project/", // Replace with your repository's name
+  build: {
+    outDir: "dist",
+  },
 });
