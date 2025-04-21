@@ -7,9 +7,12 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+  @apply h-screen w-screen bg-no-repeat  bg-center;
+  background-image:none;
 
   @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
+    background-image: none;
   }
+
+  color-scheme: dark;
 }
